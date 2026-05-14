@@ -1,0 +1,6 @@
+{
+  "name": "Aromat - Herbaciarnia",
+  "description": "Herbaciarnia Aromat w Bielsku Podlaskim - szeroki wybór herbat i kaw renomowanej firmy 'Czas na Herbatę' oraz gustowna porcelana.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
