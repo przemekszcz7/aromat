@@ -179,7 +179,7 @@ export default function App() {
                 <img 
                   src={src} 
                   alt={`Aromat Herbaciarnia - zdjęcie ${idx + 1}`} 
-                  className="w-full h-full object-cover transition-all duration-700 cursor-zoom-in hover:scale-105"
+                  className="w-full h-full object-cover transition-all duration-700 cursor-zoom-in hover:scale-105 [transform:translateZ(0)]"
                   onClick={() => setSelectedImage(src)}
                 />
               </motion.div>
