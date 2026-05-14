@@ -23,7 +23,7 @@ export const BotanicalDecor = () => {
         initial={{ opacity: 0, rotate: -10 }}
         animate={{ opacity: 1, rotate: 0 }}
         transition={{ duration: 2, ease: "easeOut" }}
-        className="absolute -top-10 -left-10 w-64 h-64"
+        className="absolute -top-10 -left-10 w-64 h-64 will-change-transform"
       >
         <LeafSprig className="w-full h-full" />
       </motion.div>
@@ -32,7 +32,7 @@ export const BotanicalDecor = () => {
         initial={{ opacity: 0, rotate: 20 }}
         animate={{ opacity: 1, rotate: 10 }}
         transition={{ duration: 2.5, ease: "easeOut", delay: 0.5 }}
-        className="absolute top-1/2 -right-20 w-80 h-80"
+        className="absolute top-1/2 -right-20 w-80 h-80 will-change-transform"
       >
         <LeafSprig className="w-full h-full opacity-[0.1]" />
       </motion.div>
@@ -41,7 +41,7 @@ export const BotanicalDecor = () => {
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 3, ease: "easeOut", delay: 1 }}
-        className="absolute -bottom-20 left-1/4 w-96 h-96"
+        className="absolute -bottom-20 left-1/4 w-96 h-96 will-change-transform"
       >
         <LeafSprig className="w-full h-full opacity-[0.08]" />
       </motion.div>
